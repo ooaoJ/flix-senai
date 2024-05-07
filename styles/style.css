@@ -1,0 +1,65 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34)
+}
+#title{
+    margin-bottom: 50px;
+    font-weight: 380;
+}
+#user-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#users-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.userCardImage{
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+}
+.userCardImage img{
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+}
+#user1 :hover,
+#user2 :hover,
+#user3 :hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+#user1:hover h2,
+#user2:hover h2,
+#user3:hover h2{
+    transition: 0.6s;
+    color: white;
+}
+#loading{
+    display: none;
+}
+h1{
+    color: white;
+}
+.red-gradient{
+    background: linear-gradient(to right, red, rgb(209, 3, 3));
+    color: transparent;
+    background-clip: text;
+}

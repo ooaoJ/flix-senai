@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameFlix</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mainstyle.css">
+</head>
+<body>
+    
+    <div id="root">
+        <h1 id="main-title">Game<span class="red-gradient">Flix</span></h1>
+        <div id="user-content">
+            <h1 id="title">Quem está jogando?</h1>
+            <div id="users-container">
+                <div id="user1" onclick="redirectToIndex2()">
+                    <div class="userCardImage" class="card">
+                        <img src="images/user1.jpg" alt="Foto do Usuário 1">
+                        <h2>Jogador 1</h2>
+                    </div> 
+                </div>
+                <div id="user2" onclick="redirectToIndex2()">
+                    <div class="userCardImage" class="card">
+                        <img src="images/user2.jpg" alt="Foto do Usuário 2">
+                        <h2>Jogador 2</h2>
+                    </div>
+                </div>
+                <div id="user3" class="card" onclick="redirectToIndex2()">
+                    <div class="userCardImage">
+                        <img src="images/user3.jpg" alt="Foto do Usuário 3">
+                        <h2>Jogador 3</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loading">
+        <span class="loading-content">a</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

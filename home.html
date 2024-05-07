@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - GameFlix</title>
+    <link rel="stylesheet" href="styles/mainstyle.css">
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1 id="title-logo" onclick="goToStart()">Game<span class="red-gradient">Flix</span></h1>
+        <ul id="navbar-list">
+            <li class="navbar-content">Populares</li>
+            <li class="navbar-content">Ação</li>
+            <li class="navbar-content">Sobrevivência</li>
+            <li class="navbar-content">Battle Royale</li>
+            <li class="navbar-content">RPG</li>
+        </ul>
+    </header>
+    <main>
+        <div class="carrossel">
+            <div class="container" id="img">
+                <img src="images/games/dayz.jpg" alt="Image 1" class="image">
+                <img src="images/games/hades1.jpg" alt="Image 2" class="image">
+                <img src="images/games/residentevil6.jpg" alt="Image 3" class="image">
+                <img src="images/games/rust.jpg" alt="Image 4" class="image">
+                <img src="images/games/huntshowdown.jpg" alt="Image 5" class="image">
+            </div>
+        </div>
+
+        <div id="catalog">
+            <h1>Catálogo</h1>
+            <div id="popular-catalog">
+                <h1>Popular <i class="fa-solid fa-fire"></i></h1>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
